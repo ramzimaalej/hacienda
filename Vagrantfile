@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
     server.vm.host_name = 'haciendavm'
 
     server.vm.forward_port 22, 2200
-    server.vm.forward_port 80, 8080
+    server.vm.forward_port 80, 8888
     server.vm.network :hostonly, "192.168.33.14"
   end
 
