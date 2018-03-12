@@ -1,6 +1,6 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
-
+Vagrant::DEFAULT_SERVER_URL.replace('https://vagrantcloud.com')
 Vagrant::Config.run do |config|
 
   config.vm.define :haciendavm do |server|
